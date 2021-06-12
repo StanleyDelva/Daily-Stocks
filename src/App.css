@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+.Gainers {
+  width: 33.33%;
+  width: calc(100% / 3);
+  border: 1px solid #1EA896;
+  border-radius: 25px;
+  background-color: #1EA896;
+}
+
+.Losers {
+  width: 33.33%;
+  width: calc(100% / 3);
+  border: 1px solid #904E55;
+  border-radius: 25px;
+  background-color: #904E55;
+}
+
+.Actives {
+  width: 33.33%;
+  width: calc(100% / 3);
+  border: 1px solid #024C69;
+  border-radius: 25px;
+  background-color: #024C69;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .Actives {
+    width: 100%;
+  }
+
+  .Gainers {
+    width: 100%;
+  }
+
+  .Losers {
+    width: 100%;
+  }
+
+}
+
+
+
